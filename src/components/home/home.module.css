@@ -1,0 +1,98 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+img {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+h1 {
+  color: var(--secondary-color);
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.aboutLink {
+  position: absolute;
+  left: 47%;
+  bottom: 13%;
+  transform: rotate(-90deg);
+  font-size: 16px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.border {
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  bottom: 5px;
+  left: 49.7%;
+  background-color: var(--primary-color);
+}
+
+.icons {
+  padding-left: 2rem;
+}
+
+.icon {
+  color: var(--secondary-color);
+  margin-right: 2.5rem;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: var(--primary-color);
+}
+
+section {
+  background-color: var(--bg-dark-2);
+}
+.rounded {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rounded2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.rounded3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.rounded4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.triangle {
+  position: absolute;
+  top: 71%;
+  left: 37%;
+}
+
+.triangle2 {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+.triangle3 {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+}

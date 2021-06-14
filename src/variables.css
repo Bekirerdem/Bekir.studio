@@ -1,0 +1,11 @@
+:root {
+    --bg-dark: #343537;
+    --bg-dark-2: #2F2E30;
+    --primary-color: #DEA745;
+    --secondary-color: #F9F9F9;
+    --body-text-color: #9B9B9B;
+
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Nixie One', sans-serif;
+    --tertiary-font: 'Raleway', sans-serif;
+}
