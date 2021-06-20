@@ -4,17 +4,17 @@ import Typewriter from "typewriter-effect";
 import styles from "./home.module.css";
 
 function Home() {
-
   return (
     <section className="w-full h-screen">
-
       <article className="flex flex-col justify-center items-center h-full">
-        <h1 className={`text-5xl font-semibold ${styles.header}`}>
+        <h1 className={`text-5xl font-semibold mt-14 ${styles.header}`}>
           <Typewriter
             options={{
               autoStart: true,
               loop: true,
               delay: 21,
+              cursorClassName: 'cursor',
+              
             }}
             onInit={(typewriter) => {
               typewriter
@@ -22,16 +22,17 @@ function Home() {
                   "HELLO I'M <span style='color: #DEA745;'>BEKİR</span>  ERDEM"
                 )
                 .pauseFor(900)
-                .deleteAll()
+                .deleteAll(35)
                 .typeString(
                   "I'M <span style='color: #DEA745;'>FRONT-END</span> DEVELOPER"
                 )
                 .pauseFor(900)
+                .deleteAll(35)
                 .start();
             }}
           />
         </h1>
-        <div className={` pt-10${styles.icons}`}>
+        <div className="space-x-10 mt-28">
           <a
             href="https://github.com/Bekirerdem"
             target="_blank"

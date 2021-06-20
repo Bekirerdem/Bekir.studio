@@ -13,9 +13,9 @@ img {
 
 .aboutLink {
   position: absolute;
-  left: 47.475%;
-  transform: rotate(-90deg);
-  bottom: 13%;
+  left: 50%;
+  top: 78%;
+  transform: rotate(-90deg) translate(-50%, -155%);
   font-size: 13px;
   color: var(--secondary-color);
   cursor: pointer;
@@ -27,17 +27,12 @@ img {
   width: 2px;
   height: 40px;
   bottom: 10px;
-  left: 49.7%;
+  left: 50%;
   background-color: var(--primary-color);
-}
-
-.icons {
-  padding-left: 2rem;
 }
 
 .icon {
   color: var(--secondary-color);
-  margin-right: 2.5rem;
   transition: 0.3s;
 }
 
@@ -75,9 +70,9 @@ img {
 
 .triangle {
   position: absolute;
-  bottom: -96px;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   opacity: 0.4;
 }
 
