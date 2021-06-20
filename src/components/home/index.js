@@ -13,7 +13,6 @@ function Home() {
               autoStart: true,
               loop: true,
               delay: 21,
-              cursorClassName: 'cursor',
               
             }}
             onInit={(typewriter) => {
@@ -93,10 +92,10 @@ function Home() {
         About Me
       </a>
       <div className={styles.border}></div>
-      <img className={styles.rounded} src="image/ellipse2.png" alt="Rounded" />
-      <img className={styles.rounded2} src="image/ellipse4.png" alt="Rounded" />
-      <img className={styles.rounded3} src="image/ellipse1.png" alt="Rounded" />
-      <img className={styles.rounded4} src="image/ellipse3.png" alt="Rounded" />
+      <img className={styles.rounded} src="image/ellipse2.png" alt="Ellipse" />
+      <img className={styles.rounded2} src="image/ellipse4.png" alt="Ellipse" />
+      <img className={styles.rounded3} src="image/ellipse1.png" alt="Ellipse" />
+      <img className={styles.rounded4} src="image/ellipse3.png" alt="Ellipse" />
       <img
         className={styles.triangle}
         src="image/Polygon1.png"
