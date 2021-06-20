@@ -40,28 +40,28 @@ img {
   color: var(--primary-color);
 }
 
-.rounded {
+.ellipse {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0.4;
 }
 
-.rounded2 {
+.ellipse2 {
   position: absolute;
   top: 0;
   right: 0;
   opacity: 0.4;
 }
 
-.rounded3 {
+.ellipse3 {
   position: absolute;
   bottom: 0;
   left: 0;
   opacity: 0.4;
 }
 
-.rounded4 {
+.ellipse4 {
   position: absolute;
   bottom: 0;
   right: 0;
