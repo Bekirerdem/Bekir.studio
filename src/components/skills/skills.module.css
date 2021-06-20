@@ -1,5 +1,158 @@
 .skills {
-    padding-top: 75px;
-    height: 650px;
-    background: var(--bg-dark-2);
+  width: 100%;
+  padding: 75px 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background: var(--bg-dark-2);
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 60px;
+}
+
+.list {
+  display: grid;
+  grid-gap: 3rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.data {
+  width: 500px;
+
+}
+
+.titles {
+  margin-bottom: .7rem;
+}
+
+.name {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.number {
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+}
+
+.bar,
+.percentage {
+  height: 5px;
+  border-radius: 25px;
+}
+
+.bar {
+  background: #444;
+}
+
+.percentage {
+  display: block;
+  background: var(--primary-color);
+}
+
+.webDesign {
+  position: relative;
+  width: 85%;
+}
+
+.webDesignNumber {
+  position: absolute;
+  top: -28px;
+  right: -25px;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}
+
+.figma {
+  position: relative;
+  width: 75%;
+}
+
+.figmaNumber {
+  position: absolute;
+  top: -28px;
+  right: -25px;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}
+
+.photoshop {
+  position: relative;
+  width: 70%;
+}
+
+.photoshopNumber {
+  position: absolute;
+  top: -28px;
+  right: -25px;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}
+
+.html {
+  position: relative;
+  width: 95%;
+}
+
+.htmlNumber {
+  position: absolute;
+  top: -28px;
+  right: -25px;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}
+
+.css {
+  position: relative;
+  width: 90%;
+}
+
+.cssNumber {
+  position: absolute;
+  top: -28px;
+  right: -25px;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}
+
+.tailwind {
+  position: relative;
+  width: 60%;
+}
+
+.tailwindNumber {
+  position: absolute;
+  top: -28px;
+  right: -25px;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}
+
+.js {
+  position: relative;
+  width: 50%;
+}
+
+.jsNumber {
+  position: absolute;
+  top: -28px;
+  right: -25px;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}
+
+.react {
+  position: relative;
+  width: 60%;
+}
+
+.reactNumber {
+  position: absolute;
+  top: -28px;
+  right: -25px;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
 }
