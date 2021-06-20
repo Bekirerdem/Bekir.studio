@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import styles from "./nav.module.css";
 
-import useToggle from "../../helper";
+import useToggle from "../../helper/toggle";
 
 function Nav() {
   const [scroll, setScroll] = useState({ scrollY: undefined });
