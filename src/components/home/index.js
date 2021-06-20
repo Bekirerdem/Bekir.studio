@@ -4,42 +4,40 @@ import Typewriter from "typewriter-effect";
 import styles from "./home.module.css";
 
 function Home() {
+
   return (
     <section className="w-full h-screen">
-      <nav className="flex justify-between px-40 py-5">
-        <div className={styles.logo}>Leo</div>
-        <img className={styles.menu} src="image/menu.svg" alt="Logo" />
-      </nav>
-      <article className="flex flex-col items-center justify-center space-y-36 py-44">
-          <h1 className={`text-5xl font-semibold ${styles.header}`}>
-            <Typewriter
-              options={{
-                autoStart: true,
-                loop: true,
-                delay: 40,
-              }}
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString(
-                    "HELLO I'M <span style='color: #DEA745;'>BEKİR</span>  ERDEM"
-                  )
-                  .pauseFor(1500)
-                  .deleteAll()
-                  .typeString(
-                    "I'M <span style='color: #DEA745;'>FRONT-END</span> DEVELOPER"
-                  )
-                  .pauseFor(1500)
-                  .start();
-              }}
-            />
-          </h1>
-        <div className={`${styles.icons}`}>
+
+      <article className="flex flex-col justify-center items-center h-full">
+        <h1 className={`text-5xl font-semibold ${styles.header}`}>
+          <Typewriter
+            options={{
+              autoStart: true,
+              loop: true,
+              delay: 21,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString(
+                  "HELLO I'M <span style='color: #DEA745;'>BEKİR</span>  ERDEM"
+                )
+                .pauseFor(900)
+                .deleteAll()
+                .typeString(
+                  "I'M <span style='color: #DEA745;'>FRONT-END</span> DEVELOPER"
+                )
+                .pauseFor(900)
+                .start();
+            }}
+          />
+        </h1>
+        <div className={` pt-10${styles.icons}`}>
           <a
-            href="https://twitter.com/l3ekirerdem"
+            href="https://github.com/Bekirerdem"
             target="_blank"
             rel="noreferrer"
-            className={`fa fa-twitter text-3xl ${styles.icon}`}
-            title="Twitter"
+            className={`fa fa-github text-3xl ${styles.icon}`}
+            title="GitHub"
           >
             {null}
           </a>
@@ -53,33 +51,6 @@ function Home() {
             {null}
           </a>
           <a
-            href="https://github.com/Bekirerdem"
-            target="_blank"
-            rel="noreferrer"
-            className={`fa fa-github text-3xl ${styles.icon}`}
-            title="GitHub"
-          >
-            {null}
-          </a>
-          <a
-            href="https://www.instagram.com/l3ekirerdem/"
-            target="_blank"
-            rel="noreferrer"
-            className={`fa fa-instagram text-3xl ${styles.icon}`}
-            title="İnstagram"
-          >
-            {null}
-          </a>
-          <a
-            href="/"
-            target="_blank"
-            rel="noreferrer"
-            className={`fab fa-telegram-plane text-3xl ${styles.icon}`}
-            title="Behance"
-          >
-            {null}
-          </a>
-          <a
             href="https://medium.com/@l3ekirerdem"
             target="_blank"
             rel="noreferrer"
@@ -88,9 +59,38 @@ function Home() {
           >
             {null}
           </a>
+          <a
+            href="https://www.behance.net/bekirerdem"
+            target="_blank"
+            rel="noreferrer"
+            className={`fa fa-behance text-3xl ${styles.icon}`}
+            title="Behance"
+          >
+            {null}
+          </a>
+          <a
+            href="https://twitter.com/l3ekirerdem"
+            target="_blank"
+            rel="noreferrer"
+            className={`fa fa-twitter text-3xl ${styles.icon}`}
+            title="Twitter"
+          >
+            {null}
+          </a>
+          <a
+            href="/"
+            target="_blank"
+            rel="noreferrer"
+            className={`fab fa-telegram-plane text-3xl ${styles.icon}`}
+            title="Telegram"
+          >
+            {null}
+          </a>
         </div>
       </article>
-      <a href="/" className={styles.aboutLink}>About Me</a>
+      <a href="/about" className={styles.aboutLink}>
+        About Me
+      </a>
       <div className={styles.border}></div>
       <img className={styles.rounded} src="image/ellipse2.png" alt="Rounded" />
       <img className={styles.rounded2} src="image/ellipse4.png" alt="Rounded" />

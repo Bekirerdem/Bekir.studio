@@ -1,8 +1,9 @@
-.logo {
-  font-family: var(--secondary-font);
-  font-size: 3rem;
-  font-weight: 400;
-  color: var(--primary-color);
+section {
+  background-color: var(--bg-dark-2);
+}
+
+h1 {
+  color: var(--secondary-color);
 }
 
 img {
@@ -10,20 +11,12 @@ img {
   color: var(--primary-color);
 }
 
-h1 {
-  color: var(--secondary-color);
-}
-
-.menu {
-  cursor: pointer;
-}
-
 .aboutLink {
   position: absolute;
-  left: 47%;
-  bottom: 13%;
+  left: 47.475%;
   transform: rotate(-90deg);
-  font-size: 16px;
+  bottom: 13%;
+  font-size: 13px;
   color: var(--secondary-color);
   cursor: pointer;
   z-index: 1;
@@ -33,7 +26,7 @@ h1 {
   position: absolute;
   width: 2px;
   height: 40px;
-  bottom: 5px;
+  bottom: 10px;
   left: 49.7%;
   background-color: var(--primary-color);
 }
@@ -52,47 +45,54 @@ h1 {
   color: var(--primary-color);
 }
 
-section {
-  background-color: var(--bg-dark-2);
-}
 .rounded {
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0.4;
 }
 
 .rounded2 {
   position: absolute;
   top: 0;
   right: 0;
+  opacity: 0.4;
 }
 
 .rounded3 {
   position: absolute;
   bottom: 0;
   left: 0;
+  opacity: 0.4;
 }
 
 .rounded4 {
   position: absolute;
   bottom: 0;
   right: 0;
+  opacity: 0.4;
 }
 
 .triangle {
   position: absolute;
-  top: 71%;
-  left: 37%;
+  bottom: -96px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.4;
 }
 
 .triangle2 {
   position: absolute;
   right: 5%;
-  top: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.4;
 }
 
 .triangle3 {
   position: absolute;
   left: 5%;
-  top: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.4;
 }

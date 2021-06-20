@@ -1,0 +1,26 @@
+.boxHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.headerTitle {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
+
+.header {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 15px;
+}
+
+.border {
+  width: 72px;
+  height: 2px;
+  background: var(--primary-color);
+  margin-top: 32px;
+}
