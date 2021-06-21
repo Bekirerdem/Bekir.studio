@@ -92,10 +92,10 @@ function Home() {
         About Me
       </a>
       <div className={styles.border}></div>
-      <img className={styles.ellipse} src="image/ellipse2.png" alt="Ellipse" />
-      <img className={styles.ellipse2} src="image/ellipse4.png" alt="Ellipse" />
-      <img className={styles.ellipse3} src="image/ellipse1.png" alt="Ellipse" />
-      <img className={styles.ellipse4} src="image/ellipse3.png" alt="Ellipse" />
+      <img className={styles.ellipse} src="image/Ellipse-left-top.svg" alt="Ellipse" />
+      <img className={styles.ellipse2} src="image/Ellipse-right-top.svg" alt="Ellipse" />
+      <img className={styles.ellipse3} src="image/Ellipse-left-bottom.svg" alt="Ellipse" />
+      <img className={styles.ellipse4} src="image/Ellipse-right-bottom.svg" alt="Ellipse" />
       <img
         className={styles.triangle}
         src="image/Polygon1.png"
