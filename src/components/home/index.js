@@ -55,7 +55,7 @@ function Home() {
             target="_blank"
             rel="noreferrer"
             className={`fab fa-medium-m text-3xl ${styles.icon}`}
-            title="Youtube"
+            title="Medium"
           >
             {null}
           </a>
