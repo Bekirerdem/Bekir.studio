@@ -17,44 +17,26 @@ function Services() {
         >
           <img className={styles.icon} src="image/Vector.svg" alt="icon" />
         </ServicesBox>
-        <ServicesBox
+{/*         <ServicesBox
           title="USER INTERFACE"
           paragraf="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
           number="02"
         >
           <img className={styles.icon} src="image/laptop.svg" alt="icon" />
-        </ServicesBox>
-        <ServicesBox
-          title="CLEEN CODE"
-          paragraf="I am creating a good infrastructure by coding your site with consistent and correct coding."
-          number="03"
-        >
-          <img
-            className={styles.icon}
-            src="image/address-card.svg"
-            alt="icon"
-          />
-        </ServicesBox>
+        </ServicesBox> */}
         <ServicesBox
           title="BRANDING"
           paragraf="I am building a website by taking the right steps towards branding and researching."
-          number="04"
+          number="02"
         >
           <img className={styles.icon} src="image/flag.svg" alt="icon" />
         </ServicesBox>
         <ServicesBox
           title="SEO OPTIMIZED"
           paragraf="I create websites by increasing your site's visibility in organic search results to get more traffic."
-          number="05"
+          number="03"
         >
           <img className={styles.icon} src="image/globe.svg" alt="icon" />
-        </ServicesBox>
-        <ServicesBox
-          title="FAST SUPPORT"
-          paragraf="Support status is available for any error that may occur."
-          number="06"
-        >
-          <img className={styles.icon} src="image/headset.svg" alt="icon" />
         </ServicesBox>
       </div>
     </div>
