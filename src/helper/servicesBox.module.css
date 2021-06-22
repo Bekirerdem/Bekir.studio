@@ -6,6 +6,7 @@
   padding: 35px 20px;
   border-radius: 25px;
   transition: 0.5s;
+  margin-top: 35px;
 }
 
 .box:hover {
@@ -52,4 +53,10 @@
   height: 2px;
   background: var(--primary-color);
   transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 450px;
+  }
 }
