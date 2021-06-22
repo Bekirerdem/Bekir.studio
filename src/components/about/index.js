@@ -21,7 +21,7 @@ function About() {
           Projelerimi React&Next.js teknolojilerini kullanarak geliştirmekteyim.
         </p>
         <div className={`flex space-x-14 ${styles.information}`}>
-          <div>
+          <div className={styles.box}>
             <p className={styles.text}>
               Name: <span className={styles.textAlt}>Bekir Erdem</span>
             </p>
@@ -32,7 +32,7 @@ function About() {
               Freelance: <span className={styles.textAlt}>Available</span>
             </p>
           </div>
-          <div>
+          <div className={styles.box}>
             <p className={styles.text}>
               Age: <span className={styles.textAlt}>24</span>
             </p>
