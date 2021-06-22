@@ -8,9 +8,7 @@ import Header from "../../helper/header";
 function Skills() {
   return (
     <div className={styles.skills}>
-      <Header title="My Technical Level" header="MY SKILLS" >
-
-      </Header>
+      <Header title="My Technical Level" header="MY SKILLS" />
       <div className={styles.lists}>
         <div className={styles.list}>
           <div className={styles.data}>

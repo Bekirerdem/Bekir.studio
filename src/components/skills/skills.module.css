@@ -4,6 +4,7 @@
   margin-right: auto;
   margin-left: auto;
   background: var(--bg-dark-2);
+  overflow-x: hidden;
 }
 
 .lists {
@@ -21,11 +22,10 @@
 
 .data {
   width: 500px;
-
 }
 
 .titles {
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .name {
@@ -155,4 +155,22 @@
   right: -25px;
   color: var(--secondary-color);
   font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1040px) {
+  .skills {
+    padding: 75px 50px;
+  }
+  .data {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .skills {
+    padding: 75px 50px;
+  }
+  .data {
+    width: 275px;
+  }
 }
