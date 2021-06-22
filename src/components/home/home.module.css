@@ -6,9 +6,17 @@ h1 {
   color: var(--secondary-color);
 }
 
-img {
-  font-size: 1.5rem;
-  color: var(--primary-color);
+.container {
+  position: relative;
+  min-height: 629px;
+}
+
+.header {
+  margin-top: 17rem;
+}
+
+.icons {
+  margin-top: 8rem;
 }
 
 .aboutLink {
@@ -41,53 +49,131 @@ img {
 }
 
 .ellipse {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.4;
+  @apply absolute 
+  top-0 
+  left-0
+  opacity-40;
 }
 
 .ellipse2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  opacity: 0.4;
+  @apply absolute 
+  top-0 
+  right-0
+  opacity-40;
 }
 
 .ellipse3 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  opacity: 0.4;
+  @apply absolute 
+  left-0 
+  bottom-0
+  opacity-40;
 }
 
 .ellipse4 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  opacity: 0.4;
+  @apply absolute 
+  bottom-0 
+  right-0
+  opacity-40;
 }
 
 .triangle {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
+  @apply absolute
+  bottom-0
+  left-1/2
+  opacity-40;
   transform: translate(-50%);
-  opacity: 0.4;
 }
 
 .triangle2 {
-  position: absolute;
+  @apply absolute
+  top-1/2
+  opacity-40;
   right: 5%;
-  top: 50%;
   transform: translateY(-50%);
-  opacity: 0.4;
 }
 
 .triangle3 {
-  position: absolute;
+  @apply absolute
+  opacity-40
+  top-1/2;
   left: 5%;
-  top: 50%;
   transform: translateY(-50%);
-  opacity: 0.4;
+}
+
+.triangle5,
+.triangle6 {
+  display: none;
+}
+
+@media only screen and (max-width: 1040px) {
+  .triangle2 {
+    top: 45%;
+    width: 160px;
+  }
+  .triangle3 {
+    top: 45%;
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ellipse,
+  .ellipse2,
+  .ellipse3,
+  .ellipse4 {
+    display: none;
+  }
+
+  .header {
+    font-size: 36px;
+    margin-top: 17.5rem;
+  }
+
+  .triangle2,
+  .triangle3 {
+    width: 7rem;
+    height: 10rem;
+  }
+  .triangle3 {
+    left: 25px;
+  }
+  .triangle2 {
+    right: 25px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header {
+    font-size: 26px;
+    margin-top: 17.5rem;
+  }
+
+  .triangle {
+    bottom: 5%;
+  }
+
+  .triangle2,
+  .triangle3 {
+    display: none;
+  }
+
+  .triangle5,
+  .triangle6 {
+    display: block;
+  }
+
+  .triangle5 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 100px;
+    opacity: 0.5;
+  }
+  .triangle6 {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 100px;
+    opacity: 0.5;
+  }
 }
