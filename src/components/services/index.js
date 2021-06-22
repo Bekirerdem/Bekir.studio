@@ -9,15 +9,16 @@ function Services() {
   return (
     <div className={styles.services}>
       <Header title="The Services I Provide" header="MY SERVICES" />
-      <div className="grid grid-cols-3 gap-y-8 pt-20">
+      <div className="flex gap-x-10 flex-wrap justify-center w-full pt-14">
         <ServicesBox
+          className={styles.box1}
           title="UI/UX Design"
           paragraf="Creative designs and creating the appropriate design model according to the subject."
           number="01"
         >
           <img className={styles.icon} src="image/Vector.svg" alt="icon" />
         </ServicesBox>
-{/*         <ServicesBox
+        {/*         <ServicesBox
           title="USER INTERFACE"
           paragraf="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
           number="02"
