@@ -105,7 +105,7 @@ h1 {
   display: none;
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 992px) {
   .triangle2 {
     top: 45%;
     width: 160px;

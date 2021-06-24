@@ -10,16 +10,20 @@ function About() {
         <div className={styles.imageBg}></div>
       </div>
       <div className={styles.aboutContent}>
-        <h3 className={styles.aboutTitle}><span className={styles.border}></span>I'm Bekir Erdem</h3>
-        <h2 className={styles.aboutHeader}>
-          FrontEnd - Developer <br />
-          Based in Bursa
-        </h2>
-        <p>
-          Merhaba, ben Bekir. Front-End teknolojileri ile ilgilenen bir
-          geliştiriciyim ve aynı zamanda tasarım ile de uğraşmaktayım.
-          Projelerimi React&Next.js teknolojilerini kullanarak geliştirmekteyim.
-        </p>
+        <div className={styles.items}>
+          <h3 className={styles.aboutTitle}>
+            <span className={styles.border}></span>I'm Bekir Erdem
+          </h3>
+          <h2 className={styles.aboutHeader}>
+            FrontEnd - Developer <br />
+            Based in Bursa
+          </h2>
+          <p>
+            Hello, I'm Bekir. I am a developer dealing with Front-End
+            technologies and I am also dealing with design. I develop my
+            projects using React&Next.js technologies.
+          </p>
+        </div>
         <div className={`flex space-x-14 ${styles.information}`}>
           <div className={styles.box}>
             <p className={styles.text}>

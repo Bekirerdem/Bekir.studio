@@ -157,7 +157,7 @@
   font-size: 0.9rem;
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 992px) {
   .skills {
     padding: 75px 50px;
   }
