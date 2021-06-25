@@ -7,7 +7,7 @@ import ServicesBox from "../../helper/servicesBox";
 
 function Services() {
   return (
-    <div className={styles.services}>
+    <section className={styles.services}>
       <Header title="The Services I Provide" header="MY SERVICES" />
       <div className="flex gap-x-10 flex-wrap justify-center w-full pt-14">
         <ServicesBox
@@ -40,7 +40,7 @@ function Services() {
           <img className={styles.icon} src="image/globe.svg" alt="icon" />
         </ServicesBox>
       </div>
-    </div>
+    </section>
   );
 }
 

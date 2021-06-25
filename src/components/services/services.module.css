@@ -7,3 +7,9 @@
   width: 56px;
   padding-left: 25px;
 }
+
+@media only screen and (max-width: 576px) {
+  .services {
+    padding: 75px 35px;
+  }
+}
