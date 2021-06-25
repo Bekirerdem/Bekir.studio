@@ -149,7 +149,7 @@ h1 {
   }
 
   .triangle {
-    bottom: 5%;
+    bottom: 0;
   }
 
   .triangle2,
@@ -166,14 +166,14 @@ h1 {
     position: absolute;
     bottom: 5%;
     left: 5%;
-    width: 100px;
+    width: 105px;
     opacity: 0.5;
   }
   .triangle6 {
     position: absolute;
     bottom: 5%;
     right: 5%;
-    width: 100px;
+    width: 105px;
     opacity: 0.5;
   }
 }
