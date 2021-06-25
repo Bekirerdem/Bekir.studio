@@ -20,8 +20,8 @@ function Nav() {
   }, []);
 
   return (
-    <div>
-      <nav
+    <nav>
+      <div
         className={`flex justify-between items-center px-36 py-6 
         ${styles.nav}
         ${scroll.scrollY > 40 ? styles.actives : styles.disabled}`}
@@ -38,7 +38,7 @@ function Nav() {
           <i></i>
           <i></i>
         </div>
-      </nav>
+      </div>
       <div
         className={`absolute flex flex-col top-0 gap-3 w-full h-full items-center justify-center ${
           state ? styles.menuChanged : styles.setMenuChanged
@@ -66,7 +66,7 @@ function Nav() {
           Contact
         </a>
       </div>
-    </div>
+    </nav>
   );
 }
 
