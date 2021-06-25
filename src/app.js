@@ -10,13 +10,13 @@ import Services from "./components/services";
 
 function App() {
   return (
-    <div className={styles.app}>
+    <main className={styles.app}>
       <Nav />
       <Home />
       <About />
       <Skills />
       <Services/>
-    </div>
+    </main>
   );
 }
 
