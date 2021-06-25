@@ -7,7 +7,7 @@ import Header from "../../helper/header";
 
 function Skills() {
   return (
-    <div className={styles.skills}>
+    <section className={styles.skills}>
       <Header title="My Technical Level" header="MY SKILLS" />
       <div className={styles.lists}>
         <div className={styles.list}>
@@ -47,7 +47,7 @@ function Skills() {
             </div>
             <div className={styles.bar}>
               <div className={cn(styles.percentage, styles.html)}>
-                <span className={styles.htmlNumber}>90%</span>
+                <span className={styles.htmlNumber}>95%</span>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ function Skills() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
