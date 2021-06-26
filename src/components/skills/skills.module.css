@@ -170,12 +170,13 @@
   .skills {
     padding: 75px 50px;
   }
+  
   .data {
     width: 275px;
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) { 
   .lists {
     grid-gap: 3rem;
     display: flex;
