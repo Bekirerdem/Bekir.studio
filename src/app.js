@@ -7,6 +7,7 @@ import Home from "./components/home";
 import About from "./components/about";
 import Skills from "./components/skills";
 import Services from "./components/services";
+import Portfolio from "./components/portfolio";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Skills />
       <Services/>
+      <Portfolio/>
     </main>
   );
 }
