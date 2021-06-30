@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  width: 350px;
+  height: 320px;
+  background: var(--bg-dark);
+  border-radius: 25px;
+}
+
+.overlay {
+  background-color: var(--bg-dark-2);
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  bottom: 3%;
+  right: 3%;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.4s ease-in;
+  border-radius: 25px;
+}
+
+.container:hover .overlay {
+  width: 90%;
+  height: 90%;
+  opacity: 1;
+  transition: 0.4s ease-in;
+}
