@@ -126,16 +126,6 @@ function Home() {
         src="image/Polygon3.png"
         alt="triangle"
       />
-      <img
-        className={styles.triangle5}
-        src="image/Polygon5.svg"
-        alt="triangle"
-      />
-      <img
-        className={styles.triangle6}
-        src="image/Polygon6.svg"
-        alt="triangle"
-      />
     </section>
   );
 }

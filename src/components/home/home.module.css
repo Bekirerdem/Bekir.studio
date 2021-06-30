@@ -166,19 +166,4 @@ h1 {
   .triangle6 {
     display: block;
   }
-
-  .triangle5 {
-    position: absolute;
-    bottom: 5%;
-    left: 5%;
-    width: 105px;
-    opacity: 0.5;
-  }
-  .triangle6 {
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-    width: 105px;
-    opacity: 0.5;
-  }
 }
